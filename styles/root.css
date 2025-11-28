@@ -1,0 +1,17 @@
+:root {
+  --Primary: rgb(11, 99, 206);
+  --Primary-600: #64004f;
+  --Secondary: #00b29f;
+  --Accent: #ffb020;
+  --Success: rgb(22, 163, 74);
+  --Danger: #e02424;
+  --Warning: #f59e0b;
+  --Info: #0891b2;
+  --backGround: #222;
+  --Card: #ffffff;
+  --Text: #a200b1;
+  --mutedText: #64748b;
+  --inputsBG: #111;
+  --inputFocus: #000;
+  --Primary-600Hov: #770c60;
+}

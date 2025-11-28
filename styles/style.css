@@ -1,0 +1,144 @@
+@import url(root.css);
+@import url("https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 100%;
+  /* overflow-x: hidden; */
+  font-size: 15px;
+  font-family: "Science Gothic", sans-serif;
+  background-color: var(--backGround);
+}
+
+.main {
+  width: 80%;
+  margin: auto;
+}
+
+.head {
+  text-align: center;
+  line-height: 2.5rem;
+  color: var(--Text);
+  text-transform: uppercase;
+  margin: 0.625rem 0;
+}
+
+input {
+  width: 100%;
+  height: 2.75rem;
+  padding: 0.2rem;
+  margin: 0.3rem 0;
+  border-radius: 0.25rem;
+  border: none;
+  background-color: var(--inputsBG);
+  color: var(--Text);
+  outline: none;
+}
+
+input:focus {
+  background-color: var(--inputFocus);
+  transform: scale(1.1);
+}
+
+/* .prices input {
+  width: 20%;
+} */
+
+.prices {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.625rem;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .prices {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+  .prices {
+    grid-template-columns: 1fr;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
+#total {
+  background-color: var(--Primary);
+  padding: 0.5rem 0.25rem;
+  border-radius: 0.25rem;
+  text-align: center;
+}
+
+#total::before {
+  content: "Total: ";
+}
+
+button {
+  width: 100%;
+  height: fit-content;
+  border-radius: 1rem;
+  background-color: var(--Primary-600);
+  border: none;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  transition: 500ms;
+  cursor: pointer;
+  margin: 0.25rem;
+}
+
+button:hover {
+  background-color: var(--Primary-600Hov);
+  letter-spacing: 0.2rem;
+}
+
+@media (max-width: 500px) {
+  .outputs .btnSearch {
+    flex-direction: column;
+  }
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.625rem;
+}
+
+.btns button {
+  width: 45%;
+}
+
+table {
+  width: 100%;
+  min-width: 600px;
+  text-align: center;
+  margin: 0.625rem 0;
+}
+table th {
+  text-transform: uppercase;
+}
+
+th,
+tr,
+td {
+  padding: 0.3rem;
+}
+
+#deleteAll {
+  margin: 0.625rem 0;
+}
+
+#error {
+  color: var(--Danger);
+}
