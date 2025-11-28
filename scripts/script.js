@@ -93,10 +93,10 @@ function clearData() {
 
 function tableData() {
   let table = ``;
-  for (let i = 1; i < dataProduct.length; i++) {
+  for (let i = 0; i < dataProduct.length; i++) {
     table += `
             <tr>
-                <td>${i}</td>
+                <td>${i+1}</td>
                 <td>${dataProduct[i].title}</td>
                 <td>${dataProduct[i].price}</td>
                 <td>${dataProduct[i].taxes}</td>
