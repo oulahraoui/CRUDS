@@ -1,12 +1,11 @@
 :root {
+  --heading: #854f6c;
   --Primary: rgb(133, 79, 108);
   --Primary-600: #c38eb4;
-  --Success: rgb(22, 163, 74);
-  --Danger: #e02424;
+  --Danger: #af445a;
   --Info: #0891b2;
   --backGround: #2b124c;
   --Text: #fbe4d8;
-  --mutedText: #64748b;
   --inputsBG: #111;
   --inputFocus: #000;
   --Primary-600Hov: #770c60;

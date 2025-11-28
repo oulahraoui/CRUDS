@@ -23,7 +23,8 @@ function getTotal() {
   if ((price.value != ``, taxes.value != ``, ads.value != ``)) {
     let result = +price.value + +taxes.value + +ads.value - discount.value;
     total.innerHTML = result;
-    total.style.backgroundColor = "rgb(22, 163, 74)";
+    total.style.backgroundColor = "#F59F59";
+    total.style.color = `black`;
   } else {
     total.innerHTML = ``;
     total.style.backgroundColor = `rgb(133, 79, 108)`;

@@ -23,6 +23,10 @@ body {
   margin: auto;
 }
 
+.heading {
+  color: var(--heading);
+}
+
 .head {
   text-align: center;
   line-height: 2.5rem;
@@ -155,4 +159,5 @@ td {
 
 #error {
   color: var(--Danger);
+  text-shadow: 0 0 2.5rem;
 }
