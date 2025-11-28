@@ -1,15 +1,11 @@
 :root {
-  --Primary: rgb(11, 99, 206);
-  --Primary-600: #64004f;
-  --Secondary: #00b29f;
-  --Accent: #ffb020;
+  --Primary: rgb(133, 79, 108);
+  --Primary-600: #c38eb4;
   --Success: rgb(22, 163, 74);
   --Danger: #e02424;
-  --Warning: #f59e0b;
   --Info: #0891b2;
-  --backGround: #222;
-  --Card: #ffffff;
-  --Text: #a200b1;
+  --backGround: #2b124c;
+  --Text: #fbe4d8;
   --mutedText: #64748b;
   --inputsBG: #111;
   --inputFocus: #000;

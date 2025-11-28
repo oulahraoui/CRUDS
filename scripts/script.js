@@ -26,7 +26,7 @@ function getTotal() {
     total.style.backgroundColor = "rgb(22, 163, 74)";
   } else {
     total.innerHTML = ``;
-    total.style.backgroundColor = `rgb(11, 99, 206)`;
+    total.style.backgroundColor = `rgb(133, 79, 108)`;
   }
 }
 // Create DATA
@@ -65,6 +65,8 @@ create.onclick = function () {
       count.style = "display: block";
     }
     clearData();
+  } else {
+    error.innerHTML = `Enter Valid Data`;
   }
 
   localStorage.setItem(`product`, JSON.stringify(dataProduct));
@@ -83,7 +85,7 @@ function clearData() {
   category.value = ``;
   count.value = ``;
   discount.value = ``;
-  total.style.backgroundColor = `rgb(11, 99, 206)`;
+  total.style.backgroundColor = `rgb(133, 79, 108)`;
 }
 
 // Read Data (Table)

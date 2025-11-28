@@ -1,5 +1,6 @@
 @import url(./root.css);
-@import url("https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 
 * {
   margin: 0;
@@ -10,8 +11,10 @@
 body {
   max-width: 100%;
   /* overflow-x: hidden; */
-  font-size: 15px;
-  font-family: "Science Gothic", sans-serif;
+  font-size: 22px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
   background-color: var(--backGround);
 }
 
@@ -38,6 +41,9 @@ input {
   background-color: var(--inputsBG);
   color: var(--Text);
   outline: none;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
 }
 
 input:focus {
@@ -78,6 +84,7 @@ input:focus {
   padding: 0.5rem 0.25rem;
   border-radius: 0.25rem;
   text-align: center;
+  color: var(--Text);
 }
 
 #total::before {
@@ -95,7 +102,7 @@ button {
   transition: 500ms;
   cursor: pointer;
   margin: 0.25rem;
-  
+  font-family: "Open Sans", sans-serif;
 }
 
 button:hover {
@@ -118,6 +125,12 @@ button:hover {
 
 .btns button {
   width: 45%;
+}
+
+.table {
+  color: var(--Text);
+  font-size: 1.4rem;
+  letter-spacing: 0.2rem;
 }
 
 table {
