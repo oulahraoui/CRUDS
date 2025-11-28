@@ -95,6 +95,7 @@ button {
   transition: 500ms;
   cursor: pointer;
   margin: 0.25rem;
+  
 }
 
 button:hover {
